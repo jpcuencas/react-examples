@@ -1,0 +1,5 @@
+//config typescript
+npx tsconfig.json
+
+// graphql configurator
+npx graphql-codegen init

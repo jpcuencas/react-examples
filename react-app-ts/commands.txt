@@ -1,0 +1,2 @@
+//install phyton for node
+npm install --global windows-build-tools
