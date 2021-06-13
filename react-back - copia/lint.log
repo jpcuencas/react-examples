@@ -1,0 +1,400 @@
+Linting:
+1. ✘ \src\app.ts
+2. ✘ \src\config\config.ts
+3. ✘ \src\controllers\videos.controller.ts
+4. ✘ \src\index.ts
+5. ✘ \src\models\Video.ts
+6. ✘ \src\routes\videos.routes.ts
+7. ✘ \src\services\videos.service.ts
+8. ✘ \src\test\controllers\videos.controller.test.ts
+9. ✘ \src\test\services\videos.service.test.ts
+
+H:\dev\nodejs\react-back\src\app.ts
+   1:31  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   2:29  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   3:25  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   4:20  error  Unable to resolve path to module './config/config'            import/no-unresolved
+   4:20  error  Missing file extension for "./config/config"                  import/extensions
+   4:38  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   5:26  error  Unable to resolve path to module './routes/videos.routes'     import/no-unresolved
+   5:51  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   7:23  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   8:30  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+   9:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  10:18  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  11:1   error  Expected exception block, space or tab after '//' in comment  spaced-comment
+  11:15  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  12:36  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  13:18  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  14:17  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  15:14  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  16:25  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  17:36  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  18:28  error  A space is required after '{'                                 object-curly-spacing
+  18:44  error  A space is required before '}'                                object-curly-spacing
+  18:48  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  19:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  20:10  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  21:21  error  There should be no space before this paren                    space-in-parens
+  21:24  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  22:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  23:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  23:1   error  More than 1 blank line not allowed                            no-multiple-empty-lines
+  24:20  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  25:1   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  25:1   error  Too many blank lines at the end of file. Max of 0 allowed     no-multiple-empty-lines
+
+H:\dev\nodejs\react-back\src\config\config.ts
+   1:25  error  Strings must use singlequote                     quotes
+   1:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:17  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:10  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:8   error  Strings must use singlequote                     quotes
+   6:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:49  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:8   error  Strings must use singlequote                     quotes
+   9:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:43  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:50  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:2   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:17  error  Expected property shorthand                      object-shorthand
+  15:31  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:8   error  Expected space(s) after "default"                keyword-spacing
+  17:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:1   error  Expected indentation of 2 spaces but found 4     indent
+  18:36  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:1   error  Expected indentation of 2 spaces but found 4     indent
+  19:49  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:2   error  Newline required at end of file but not found    eol-last
+  20:2   error  Missing semicolon                                semi
+
+H:\dev\nodejs\react-back\src\controllers\videos.controller.ts
+   1:8   error    A space is required after '{'                                  object-curly-spacing
+   1:23  error    A space is required before '}'                                 object-curly-spacing
+   1:40  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   2:27  error    Unable to resolve path to module '../services/videos.service'  import/no-unresolved
+   2:56  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   3:1   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   4:62  error    Expected to return a value at the end of arrow function        consistent-return
+   4:66  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   5:1   error    Expected indentation of 2 spaces but found 4                   indent
+   5:5   warning  Unexpected console statement                                   no-console
+   5:29  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   6:1   error    Expected indentation of 2 spaces but found 4                   indent
+   6:10  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   7:1   error    Expected indentation of 4 spaces but found 8                   indent
+   7:13  error    'result' is never reassigned. Use 'const' instead              prefer-const
+   7:60  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   8:1   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+   9:1   error    Expected indentation of 4 spaces but found 8                   indent
+   9:9   error    Expected space(s) after "if"                                   keyword-spacing
+   9:51  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  10:1   error    Expected indentation of 4 spaces but found 8                   indent
+  10:33  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  11:1   error    Expected indentation of 2 spaces but found 4                   indent
+  11:22  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  12:1   error    Expected indentation of 4 spaces but found 8                   indent
+  12:25  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  13:1   error    Expected indentation of 2 spaces but found 4                   indent
+  13:6   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  14:2   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  14:2   error    Missing semicolon                                              semi
+  15:1   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  16:67  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  17:1   error    Expected indentation of 2 spaces but found 4                   indent
+  17:10  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  18:1   error    Expected indentation of 4 spaces but found 8                   indent
+  18:13  error    'result' is never reassigned. Use 'const' instead              prefer-const
+  18:48  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  19:1   error    Expected indentation of 4 spaces but found 8                   indent
+  19:26  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  20:1   error    Expected indentation of 2 spaces but found 4                   indent
+  20:22  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  21:1   error    Expected indentation of 4 spaces but found 8                   indent
+  21:25  error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  22:1   error    Expected indentation of 2 spaces but found 4                   indent
+  22:6   error    Expected linebreaks to be 'LF' but found 'CRLF'                linebreak-style
+  23:2   error    Newline required at end of file but not found                  eol-last
+  23:2   error    Missing semicolon                                              semi
+
+H:\dev\nodejs\react-back\src\index.ts
+  1:17  error    Unable to resolve path to module './app'         import/no-unresolved
+  1:17  error    Missing file extension for "./app"               import/extensions
+  1:25  error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  2:1   error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  3:1   error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  3:1   error    More than 1 blank line not allowed               no-multiple-empty-lines
+  4:45  error    Missing space before =>                          arrow-spacing
+  4:50  error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  5:1   error    Expected indentation of 2 spaces but found 4     indent
+  5:5   warning  Unexpected console statement                     no-console
+  5:56  error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  6:4   error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  7:1   error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  8:23  error    Newline required at end of file but not found    eol-last
+
+H:\dev\nodejs\react-back\src\models\Video.ts
+  1:33  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  2:16  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  3:19  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  4:25  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  5:17  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  6:1   error  Trailing spaces not allowed                                   no-trailing-spaces
+  6:5   error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  7:5   error  Expected exception block, space or tab after '//' in comment  spaced-comment
+  7:27  error  Expected linebreaks to be 'LF' but found 'CRLF'               linebreak-style
+  8:4   error  Newline required at end of file but not found                 eol-last
+  8:4   error  Missing semicolon                                             semi
+
+H:\dev\nodejs\react-back\src\routes\videos.routes.ts
+   1:8   error  A space is required after '{'                                                object-curly-spacing
+   1:15  error  A space is required before '}'                                               object-curly-spacing
+   1:32  error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   3:1   error  Expected 1 empty line after import statement not followed by another import  import/newline-after-import
+   3:28  error  Unable to resolve path to module '../controllers/videos.controller'          import/no-unresolved
+   3:63  error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   4:25  error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   5:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   6:44  error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   7:47  error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   8:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   9:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                              linebreak-style
+   9:1   error  More than 1 blank line not allowed                                           no-multiple-empty-lines
+  10:23  error  Newline required at end of file but not found                                eol-last
+
+H:\dev\nodejs\react-back\src\services\videos.service.ts
+   1:19  error  Unable to resolve path to module '../models/Video'                                                     import/no-unresolved
+   1:19  error  Missing file extension for "../models/Video"                                                           import/extensions
+   1:37  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   3:5   error  'videos' is never reassigned. Use 'const' instead                                                      prefer-const
+   3:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   4:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   5:17  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   6:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+   6:22  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+   6:23  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   7:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+   7:23  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   8:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+   8:7   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   9:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+   9:31  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+   9:32  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  10:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  10:32  error  Missing space before =>                                                                                arrow-spacing
+  10:49  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  11:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  11:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  11:6   error  Missing trailing comma                                                                                 comma-dangle
+  12:2   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  12:2   error  Missing semicolon                                                                                      semi
+
+H:\dev\nodejs\react-back\src\test\controllers\videos.controller.test.ts
+   1:1   error  'supertest' should be listed in the project's dependencies, not devDependencies                        import/no-extraneous-dependencies
+   1:35  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   2:17  error  Unable to resolve path to module '../../app'                                                           import/no-unresolved
+   2:17  error  Missing file extension for "../../app"                                                                 import/extensions
+   2:29  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   3:20  error  Unable to resolve path to module '../../index'                                                         import/no-unresolved
+   3:20  error  Missing file extension for "../../index"                                                               import/extensions
+   3:34  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   4:27  error  Unable to resolve path to module '../../controllers/videos.controller'                                 import/no-unresolved
+   4:65  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   5:19  error  Unable to resolve path to module '../../models/Video'                                                  import/no-unresolved
+   5:19  error  Missing file extension for "../../models/Video"                                                        import/extensions
+   5:40  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   7:46  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   8:1   error  Expected exception block, space or tab after '//' in comment                                           spaced-comment
+   8:56  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+   9:1   error  'beforeAll' is not defined                                                                             no-undef
+   9:18  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  10:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  10:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  11:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  11:5   error  'jest' is not defined                                                                                  no-undef
+  11:48  error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  11:48  error  Block must not be padded by blank lines                                                                padded-blocks
+  11:51  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  12:1   error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  12:9   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  13:1   error  Expected indentation of 0 spaces but found 2                                                           indent
+  13:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  14:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  15:1   error  'describe' is not defined                                                                              no-undef
+  15:32  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  16:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  16:5   error  'it' is not defined                                                                                    no-undef
+  16:31  error  Missing space before function parentheses                                                              space-before-function-paren
+  16:37  error  Block must not be padded by blank lines                                                                padded-blocks
+  16:38  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  17:1   error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  17:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  18:27  error  'jest' is not defined                                                                                  no-undef
+  18:40  error  'jest' is not defined                                                                                  no-undef
+  18:79  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  19:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  19:49  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  20:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  20:33  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  21:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  21:13  error  'videos' is never reassigned. Use 'const' instead                                                      prefer-const
+  21:25  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  22:1   error  Expected indentation of 6 spaces but found 11                                                          indent
+  22:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  23:1   error  Expected indentation of 4 spaces but found 10                                                          indent
+  23:14  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  24:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  24:33  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  25:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  25:47  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  26:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  26:44  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  27:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  27:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  28:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  28:8   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  29:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  30:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  30:5   error  'it' is not defined                                                                                    no-undef
+  30:45  error  Missing space before function parentheses                                                              space-before-function-paren
+  30:51  error  Block must not be padded by blank lines                                                                padded-blocks
+  30:52  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  31:1   error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  31:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  32:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  32:9   error  'jest' is not defined                                                                                  no-undef
+  32:52  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  33:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  33:31  error  'jest' is not defined                                                                                  no-undef
+  33:44  error  'jest' is not defined                                                                                  no-undef
+  33:83  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  34:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  34:48  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  34:49  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  35:1   error  Expected indentation of 6 spaces but found 11                                                          indent
+  35:22  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  36:1   error  Expected indentation of 4 spaces but found 9                                                           indent
+  36:13  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  37:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  37:51  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  38:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  38:9   error  'expect' is not defined                                                                                no-undef
+  38:47  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  39:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  39:8   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  40:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  41:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  41:1   error  More than 1 blank line not allowed                                                                     no-multiple-empty-lines
+  42:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  42:5   error  'it' is not defined                                                                                    no-undef
+  42:31  error  Missing space before function parentheses                                                              space-before-function-paren
+  42:37  error  Block must not be padded by blank lines                                                                padded-blocks
+  42:38  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  43:1   error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  43:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  44:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  44:13  error  'id' is never reassigned. Use 'const' instead                                                          prefer-const
+  44:23  error  Operator '=' must be spaced                                                                            space-infix-ops
+  44:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  45:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  45:9   error  'jest' is not defined                                                                                  no-undef
+  45:52  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  46:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  46:31  error  'jest' is not defined                                                                                  no-undef
+  46:44  error  'jest' is not defined                                                                                  no-undef
+  46:83  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  47:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  47:46  error  'args' is defined but never used                                                                       no-unused-vars
+  47:61  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  48:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  48:33  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  49:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  49:13  error  'videos' is never reassigned. Use 'const' instead                                                      prefer-const
+  49:25  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  50:1   error  Expected indentation of 6 spaces but found 11                                                          indent
+  50:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  51:1   error  Expected indentation of 4 spaces but found 9                                                           indent
+  51:13  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  52:1   error  Expected indentation of 4 spaces but found 9                                                           indent
+  52:16  error  'response' is assigned a value but never used                                                          no-unused-vars
+  52:41  error  Unexpected string concatenation                                                                        prefer-template
+  52:57  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  53:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  53:47  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  54:1   error  Expected indentation of 6 spaces but found 12                                                          indent
+  54:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  55:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  55:8   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  55:8   error  Block must not be padded by blank lines                                                                padded-blocks
+  56:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  57:1   error  Trailing spaces not allowed                                                                            no-trailing-spaces
+  57:1   error  More than 1 blank line not allowed                                                                     no-multiple-empty-lines
+  57:5   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  58:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  59:1   error  Expected indentation of 0 spaces but found 2                                                           indent
+  59:6   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  60:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  61:1   error  Expected indentation of 0 spaces but found 2                                                           indent
+  61:3   error  'afterAll' is not defined                                                                              no-undef
+  61:19  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  62:1   error  Expected indentation of 2 spaces but found 6                                                           indent
+  62:22  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                        linebreak-style
+  63:1   error  Expected indentation of 0 spaces but found 2                                                           indent
+  63:6   error  Newline required at end of file but not found                                                          eol-last
+
+H:\dev\nodejs\react-back\src\test\services\videos.service.test.ts
+   1:21  error  Unable to resolve path to module '../../services/videos.service'  import/no-unresolved
+   1:53  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   3:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   3:1   error  More than 1 blank line not allowed                                no-multiple-empty-lines
+   4:1   error  'describe' is not defined                                         no-undef
+   4:39  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   5:1   error  Expected indentation of 2 spaces but found 4                      indent
+   5:5   error  'it' is not defined                                               no-undef
+   5:41  error  Missing space before function parentheses                         space-before-function-paren
+   5:48  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   6:1   error  Expected indentation of 4 spaces but found 8                      indent
+   6:13  error  'restult' is never reassigned. Use 'const' instead                prefer-const
+   6:49  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   7:1   error  Expected indentation of 4 spaces but found 8                      indent
+   7:9   error  'expect' is not defined                                           no-undef
+   7:41  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   8:1   error  Expected indentation of 2 spaces but found 4                      indent
+   8:8   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+   9:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  10:1   error  Expected indentation of 2 spaces but found 4                      indent
+  10:5   error  'it' is not defined                                               no-undef
+  10:41  error  Missing space before function parentheses                         space-before-function-paren
+  10:48  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  11:1   error  Expected indentation of 4 spaces but found 8                      indent
+  11:13  error  'id' is never reassigned. Use 'const' instead                     prefer-const
+  11:23  error  Operator '=' must be spaced                                       space-infix-ops
+  11:26  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  12:1   error  Expected indentation of 4 spaces but found 8                      indent
+  12:13  error  'restult' is never reassigned. Use 'const' instead                prefer-const
+  12:50  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  13:1   error  Expected indentation of 4 spaces but found 8                      indent
+  13:9   error  'expect' is not defined                                           no-undef
+  13:41  error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  14:1   error  Expected indentation of 2 spaces but found 4                      indent
+  14:8   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  14:8   error  Block must not be padded by blank lines                           padded-blocks
+  15:1   error  Expected linebreaks to be 'LF' but found 'CRLF'                   linebreak-style
+  16:4   error  Newline required at end of file but not found                     eol-last
+
+✖ 366 problems (364 errors, 2 warnings)
+  320 errors and 0 warnings potentially fixable with the `--fix` option.
+
+
+9 files linted.
